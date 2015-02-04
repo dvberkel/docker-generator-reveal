@@ -11,3 +11,6 @@ RUN npm install --global yo \
     grunt-cli \
     bower \
     generator-reveal
+
+RUN mkdir /presentation
+WORKDIR /presentation
