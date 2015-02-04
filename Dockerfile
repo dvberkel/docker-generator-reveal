@@ -6,3 +6,8 @@ RUN apt-get -y update && apt-get -y install \
     nodejs \
     npm
 RUN ln -s /usr/bin/nodejs /usr/bin/node
+
+RUN npm install --global yo \
+    grunt-cli \
+    bower \
+    generator-reveal
