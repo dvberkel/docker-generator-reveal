@@ -16,3 +16,4 @@ RUN mkdir /presentation
 WORKDIR /presentation
 
 EXPOSE 9000
+EXPOSE 35729
