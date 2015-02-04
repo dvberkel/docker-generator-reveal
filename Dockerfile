@@ -14,3 +14,5 @@ RUN npm install --global yo \
 
 RUN mkdir /presentation
 WORKDIR /presentation
+
+EXPOSE 9000
