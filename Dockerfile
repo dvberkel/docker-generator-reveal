@@ -5,3 +5,4 @@ RUN apt-get -y update && apt-get -y install \
     git \
     nodejs \
     npm
+RUN ln -s /usr/bin/nodejs /usr/bin/node
