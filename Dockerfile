@@ -19,5 +19,7 @@ WORKDIR /presentation
 
 USER reveal
 
+RUN yo --no-insight --version && bower --no-insight --version
+
 EXPOSE 9000
 EXPOSE 35729
