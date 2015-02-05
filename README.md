@@ -20,10 +20,11 @@ with `generator-reveal`.
 docker run -v $PWD:/presentation dvberkel/generator-reveal -i yo reveal
 ```
 
-due to the fact that `bower` is cautious to run in super user mode it
-needs to be followed up with
+When there is a `EPERM, readdir` permission problem with `bower` you
+need to follow up with
 
 ```sh
+mkdir bower_components
 docker run -v $PWD:/presentation dvberkel/generator-reveal -i bower install
 ```
 
