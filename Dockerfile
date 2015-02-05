@@ -1,6 +1,8 @@
 FROM ubuntu:14.04
 MAINTAINER Daan van Berkel <daan.v.berkel.1980@gmail.com>
 
+RUN groupadd reveal && useradd -g reveal -d /home/reveal reveal && mkdir -p /home/reveal && chown -R reveal:reveal /home/reveal
+
 RUN apt-get -y update && apt-get -y install \
     git \
     nodejs \
@@ -12,8 +14,10 @@ RUN npm install --global yo \
     bower \
     generator-reveal
 
-RUN mkdir /presentation
+RUN mkdir /presentation && chown -R reveal:reveal /presentation
 WORKDIR /presentation
+
+USER reveal
 
 EXPOSE 9000
 EXPOSE 35729
