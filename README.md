@@ -48,7 +48,15 @@ docker run -v $PWD:/presentation dvberkel/generator-reveal -p 9000:9000 -p 35729
 Use the `boot2docker ip` command to figure out where to point your
 browser if you are using boot2docker.
 
+DockerHub
+---------
+
+This repository is published on [DockerHub][dockerhub]
+[dvberkel/docker-generator-reveal][].
+
 [reveal.js]: http://lab.hakim.se/reveal-js/#/
 [generator-reveal]: https://github.com/slara/generator-reveal
 [yeoman]: http://yeoman.io/
 [docker]: https://www.docker.com/
+[dockerhub]: https://hub.docker.com/
+[dvberkel/docker-generator-reveal]: https://registry.hub.docker.com/u/dvberkel/docker-generator-reveal.git/
