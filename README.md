@@ -5,8 +5,9 @@ Docker generator-reveal
 with [generator-reveal][], a [Yeoman][yeoman] generator, it makes
 creating rich HTML presentations very easy.
 
-This project aims to containerize the generator so that you are only
-depend on [docker][] for creating and running reveal.js presentations.
+This project aims to containerize the generator so that you only need
+to depend on [docker][] for creating and running reveal.js
+presentations.
 
 How to Use
 ----------
