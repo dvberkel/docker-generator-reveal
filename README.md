@@ -2,7 +2,7 @@ Docker generator-reveal
 =======================
 
 [reveal.js][] is a great tool for showing HTML presentation. Combined
-with [generator-reveal][], a [Yeoman][yeoman] generator, it make
+with [generator-reveal][], a [Yeoman][yeoman] generator, it makes
 creating rich HTML presentations very easy.
 
 This project aims to containerize the generator so that you are only
